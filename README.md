@@ -29,13 +29,22 @@ The system is containerized and composed of three core services:
 * **Explainability:** Visual confidence gauge and threshold sensitivity control.
 * **Production Ready:** Includes type safety, Pydantic validation, and scalable directory structure.
 
+### ⚡ Quick Start (No Build Required)
+
+Pull the pre-built images directly from Docker Hub to test the architecture without compiling code.
+
+```bash
+# Pull and run in one command
+docker-compose -f docker-compose.yml up
+```
+
 ## 🛠️ Installation & Setup
 
 **Prerequisites:** Docker Desktop installed.
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/ShieldAI.git](https://github.com/YOUR_USERNAME/ShieldAI.git)
+    git clone [https://github.com/nad1r-Rao/ShieldAI-Defence-System.git](https://github.com/nad1r-Rao/ShieldAI-Defence-System.git)
     cd ShieldAI
     ```
 
